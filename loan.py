@@ -65,6 +65,10 @@ def make_prediction():
 
 
 
+@app.route("/carpredict", methods=['GET'])
+def car_predict():
+    return "I'll predict the eligibility for Car Loan prediction endpoint"
+
 
 
 if __name__ == "__main__":
